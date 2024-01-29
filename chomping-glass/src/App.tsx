@@ -226,7 +226,7 @@ function App() {
     console.log("TXID:", signature);
     else if (connection.rpcEndpoint.includes("eclipsenetwork")) {
     console.log(
-        `https://solscan.io/tx/${signature}?cluster=custom&customUrl=https%3A%2F%2Fstaging-rpc.dev.eclipsenetwork.xyz`
+        `https://solscan.io/tx/${signature}?cluster=custom&customUrl=https%3A%2F%2Ftestnet.dev2.eclipsenetwork.xyz`
     );
 } else {
       console.log(`https://solscan.io/tx/${signature}`);
